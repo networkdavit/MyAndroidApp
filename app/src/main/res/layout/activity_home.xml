@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="Hacking handbook"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <GridLayout
+        android:id="@+id/lessons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:gravity="center"
+        android:rowCount="5"
+        android:columnCount="3">
+
+
+        <ImageView
+            android:id="@+id/phishing"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/phishing" />
+
+        <ImageView
+            android:id="@+id/ddos"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/ddos" />
+
+        <ImageView
+            android:id="@+id/bruteforce"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/bruteforce" />
+
+        <ImageView
+            android:id="@+id/malware"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/malware" />
+
+        <ImageView
+            android:id="@+id/sqlinjection"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/sqlinjection" />
+
+        <ImageView
+            android:id="@+id/xss"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/xss" />
+    </GridLayout>
+
+</RelativeLayout>
