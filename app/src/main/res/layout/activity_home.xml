@@ -32,7 +32,10 @@
             android:layout_width="90dp"
             android:layout_height="90dp"
             android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true"
             android:src="@drawable/phishing" />
+
 
         <ImageView
             android:id="@+id/ddos"
@@ -68,6 +71,51 @@
             android:layout_height="90dp"
             android:layout_margin="20dp"
             android:src="@drawable/xss" />
+
+        <ImageView
+            android:id="@+id/iot"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/iot" />
+
+        <ImageView
+            android:id="@+id/socialengineering"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/socialengineering" />
+
+        <ImageView
+            android:id="@+id/rootkit"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/rootkit" />
+
+        <ImageView
+            android:id="@+id/cryptojacking"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/cryptojacking" />
+
+        <ImageView
+            android:id="@+id/impersonation"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/impersonation" />
+
+        <ImageView
+            android:id="@+id/idtheft"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/idtheft" />
+
     </GridLayout>
 
 </RelativeLayout>
